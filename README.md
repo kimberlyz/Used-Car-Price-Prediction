@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this assignment, we were given the problem statement below.
+In this assignment, the problem statement was given as below.
 
 Note: you can see the full code and more details in the Jupyter Notebook Prompt_II.ipynb.
 
@@ -34,7 +34,7 @@ The data included the following features.
 
 **Data Cleaning**
 
-After analyzing the data, we ended up doing the following steps to clean the data
+After analyzing the data, the following steps were taken to clean the data
 * Dropping categorical columns with two many unique values (if we one-hot-encoded them, the data dimensionality would increase too much and make it slow to train a model)
 * Dropping columns with too many missing values
 * Filling columns with the mode that had > 58% non-null values and < 95% non-null values
@@ -73,7 +73,7 @@ pipe = Pipeline([
 
 **Model Result Analysis**
 
-By analyzing the RMSE, the R2 score, and the Linear Regression model coefficients, we were able to come to the following conclusions
+By analyzing the RMSE, the R2 score, and the Linear Regression model coefficients, the following conclusions were made
 
 * On average, we'll be $9,568.79 off when predicting a used car sale price.
 * About 57% of the variation in price can be explained by the model features, so it's not a very accurate model, but can still yield some insights.
